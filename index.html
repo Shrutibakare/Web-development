@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Website</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: #e2e8f0;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Top Info */
+.top-info {
+    background: #1e293b;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #94a3b8;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    animation: slideDown 1s ease;
+}
+
+/* Section */
+section {
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    margin: 40px auto;
+    max-width: 1100px;
+    background: #1e293b;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.6);
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 👈 5 per row */
+    gap: 20px;
+}
+
+/* Cards */
+.card {
+    background: #334155;
+    color: #e2e8f0;
+    padding: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+    background: #475569;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideDown {
+    from { transform: translateY(-40px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="top-info">
+    Name: Shruti .R. Bakare | Roll No: 8
+</div>
+
+<header>
+    🌐 My Web Development Assignments👇
+</header>
+
+<section>
+    <h2></h2>
+</section>
+
+<div class="container">
+<a href="webtech_1.html" class="card">Assignment No.1</a>
+    <a href="tags_2.html" class="card">Assignment 2</a>
+    <a href="textfor_3.html" class="card">Assignment 3</a>
+    <a href="list_4.html" class="card">Assignment 4</a>
+    <a href="img_5.html" class="card">Assignment 5</a>
+    <a href="frames_6.html" class="card">Assignment 6</a>
+    <a href="link_tags7.html" class="card">Assignment 7</a>
+    <a href="table_8.html" class="card">Assignment 8</a>
+    <a href="form_9.html" class="card">Assignment 9</a>
+    <a href="resume_10.html" class="card">Assignment 10</a>
+    <a href="Assignment No.11/my.html" class="card">Assignment 11</a>
+    <a href="books.xml" class="card">Assignment 12</a>
+    <a href="students.xml" class="card">Assignment 13</a>
+
+</div>
+
+</body>
+</html>
