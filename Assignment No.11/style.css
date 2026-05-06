@@ -1,0 +1,29 @@
+students {
+    display: block;
+    background: #0f172a;
+    padding: 20px;
+    font-family: Arial;
+}
+
+student {
+    display: block;
+    background: #1e293b;
+    color: #e2e8f0;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Labels */
+name::before { content: "Name: "; font-weight: bold; }
+age::before { content: "Age: "; font-weight: bold; }
+course::before { content: "Course: "; font-weight: bold; }
+email::before { content: "Email: "; font-weight: bold; }
+rollno::before { content: "Roll No: "; font-weight: bold; }
+
+/* Each field */
+name, age, course, email, rollno {
+    display: block;
+    margin: 5px 0;
+}

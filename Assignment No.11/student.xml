@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<students>
+
+    <student>
+        <name>Sam Patil</name>
+        <age>20</age>
+        <course>Computer Science</course>
+        <email>sam@gmail.com</email>
+        <rollno>102</rollno>
+    </student>
+
+    <student>
+        <name>Varad Patil</name>
+        <age>21</age>
+        <course>Information Technology</course>
+        <email>patilvarad14@gmail.com</email>
+        <rollno>103</rollno>
+    </student>
+
+    
+
+</students>
